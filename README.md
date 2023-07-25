@@ -8,4 +8,4 @@ Added:
 - enabled some of the 'extras' in LazyVim
 - dadbod (for DB connectivity)
 - monokai-pro theme (machine filter)
-- svelte LSP for treesitter
+- svelte LSP and treesitter settings
