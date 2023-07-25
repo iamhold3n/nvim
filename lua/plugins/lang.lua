@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "svelte",
+        "volar",
       },
       automatic_installation = true,
     },
@@ -13,6 +14,7 @@ return {
     opts = {
       ensure_installed = {
         "svelte",
+        "vue",
       },
     },
   },
