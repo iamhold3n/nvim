@@ -1,0 +1,6 @@
+return {
+  {
+    "telescope.nvim",
+    opts = {},
+  },
+}

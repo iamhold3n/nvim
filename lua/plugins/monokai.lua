@@ -1,6 +1,6 @@
 return {
   {
-    "loctvl842/monokai-pro.nvim",
+    "iamhold3n/monokai-pro.nvim",
     opts = {
       transparent_background = true,
       terminal_colors = true,
@@ -29,14 +29,6 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "monokai-pro",
-    },
-  },
-  {
-    "nvim-lualine/lualine.nvim",
-    opts = {
-      options = {
-        theme = "monokai-pro",
-      },
     },
   },
   {

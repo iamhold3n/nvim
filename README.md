@@ -7,6 +7,6 @@ Added:
 
 - enabled some of the 'extras' in LazyVim
 - dadbod (for DB connectivity)
-- monokai-pro theme (machine filter)
+- monokai-pro theme (machine filter), modified for basic lazyvim layout
 - svelte LSP and treesitter
 - vue LSP and treesitter
