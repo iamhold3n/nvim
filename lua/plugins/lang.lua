@@ -13,6 +13,8 @@ return {
     "nvim-treesitter",
     opts = {
       ensure_installed = {
+        "css",
+        "scss",
         "svelte",
         "vue",
       },
