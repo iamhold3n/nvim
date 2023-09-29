@@ -22,6 +22,10 @@ return {
           underline_selected = false,
           underline_visible = false,
         },
+        indent_blankline = {
+          context_highlight = "pro",
+          context_start_underline = true,
+        },
       },
     },
   },
@@ -32,9 +36,25 @@ return {
     },
   },
   {
-    "nvim-notify",
+    "rcarriga/nvim-notify",
     opts = {
       background_colour = "#000000",
+    },
+  },
+  {
+    "akinsho/bufferline.nvim",
+    opts = {
+      options = {
+        always_show_bufferline = true,
+        offsets = {
+          {
+            filetype = "neo-tree",
+            text = "",
+            highlight = "Directory",
+            text_align = "left",
+          },
+        },
+      },
     },
   },
 }

@@ -1,16 +1,17 @@
 return {
   {
-    "mason-lspconfig.nvim",
+    "williamboman/mason-lspconfig.nvim",
     opts = {
       ensure_installed = {
         "svelte",
         "volar",
+        "zls",
       },
       automatic_installation = true,
     },
   },
   {
-    "nvim-lspconfig",
+    "neovim/nvim-lspconfig",
     opts = {
       servers = {
         rust_analyzer = {
@@ -26,13 +27,14 @@ return {
     },
   },
   {
-    "nvim-treesitter",
+    "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
         "css",
         "scss",
         "svelte",
         "vue",
+        "zig",
       },
     },
   },
