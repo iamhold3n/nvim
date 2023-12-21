@@ -10,3 +10,4 @@ Added:
 - monokai-pro theme (machine filter), modified for basic lazyvim layout
 - svelte LSP and treesitter
 - vue LSP and treesitter
+- zig LSP and treesitter
